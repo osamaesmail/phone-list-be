@@ -24,10 +24,12 @@ based on 4 layer
     * golang (tested on `go1.17.2`)
 
 ## Run using docker
+* don't forget `.env` file
 * run `docker-compose up -d`
 * open http://localhost:5001/swagger/index.html
 
 ## Run without docker
+* don't forget `.env` file
 * run `go run main.go`
 * open http://localhost:5001/swagger/index.html
 

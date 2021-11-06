@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN go mod download
 RUN go build -o /go-bin
 
 EXPOSE 5001
