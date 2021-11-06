@@ -5,9 +5,9 @@ WORKDIR /app
 
 COPY . .
 
-RUN go build -o /app
+RUN go build -o /go-binary
 
 EXPOSE 5001
 
-CMD [ "/app" ]
+CMD [ "/go-binary" ]
 
