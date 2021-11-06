@@ -128,12 +128,12 @@ type swaggerInfo struct {
 
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = swaggerInfo{
-	Version:     "1.0",
+	Version:     "",
 	Host:        "",
-	BasePath:    "/api/v1",
+	BasePath:    "",
 	Schemes:     []string{},
-	Title:       "phone list API",
-	Description: "phone list API example",
+	Title:       "",
+	Description: "",
 }
 
 type s struct{}
