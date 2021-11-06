@@ -3,6 +3,10 @@ SHELL := /bin/bash
 include .env.test
 export $(shell sed 's/=.*//' .env.test)
 
+.PHONY: run
+run:
+	go run main.go
+
 .PHONY: lint
 lint:
 	golangci-lint run ./...
