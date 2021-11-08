@@ -1,3 +1,4 @@
+basePath: /api/v1.
 definitions:
   response.CustomerListResponse:
     properties:
@@ -28,6 +29,9 @@ definitions:
     type: object
 info:
   contact: {}
+  description: phone list API example
+  title: phone list API
+  version: "1.0"
 paths:
   /customers:
     get:

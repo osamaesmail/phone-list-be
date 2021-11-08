@@ -1,8 +1,12 @@
 {
     "swagger": "2.0",
     "info": {
-        "contact": {}
+        "description": "phone list API example",
+        "title": "phone list API",
+        "contact": {},
+        "version": "1.0"
     },
+    "basePath": "/api/v1.",
     "paths": {
         "/customers": {
             "get": {
