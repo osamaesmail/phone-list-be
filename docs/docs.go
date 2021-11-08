@@ -130,7 +130,7 @@ type swaggerInfo struct {
 var SwaggerInfo = swaggerInfo{
 	Version:     "1.0",
 	Host:        "",
-	BasePath:    "/api/v1.",
+	BasePath:    "/api/v1",
 	Schemes:     []string{},
 	Title:       "phone list API",
 	Description: "phone list API example",
