@@ -21,12 +21,14 @@ type customerHandler struct {
 	customerService service.CustomerService
 }
 
-// GetCustomers @Summary Get customers list
+// List GetCustomers @Summary Get customers list
 // @Router /customers [get]
 // @Tags customers
 // @Produce json
 // @Param limit query int false "pagination limit"
 // @Param offset query int false "pagination offset"
+// @Param country query string false "phone country" Enums(cameroon, ethiopia, morocco, mozambique, uganda)
+// @Param state query int false "phone state" Enums(1, 2)
 // @Success 200 {array} response.CustomerListResponse
 // @Failure 400 {object} response.Error
 // @Failure 500 {object} response.Error.

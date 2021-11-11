@@ -44,6 +44,23 @@ paths:
         in: query
         name: offset
         type: integer
+      - description: phone country
+        enum:
+        - cameroon
+        - ethiopia
+        - morocco
+        - mozambique
+        - uganda
+        in: query
+        name: country
+        type: string
+      - description: phone state
+        enum:
+        - 1
+        - 2
+        in: query
+        name: state
+        type: integer
       produces:
       - application/json
       responses:

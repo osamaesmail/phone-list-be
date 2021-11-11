@@ -43,6 +43,29 @@ var doc = `{
                         "description": "pagination offset",
                         "name": "offset",
                         "in": "query"
+                    },
+                    {
+                        "enum": [
+                            "cameroon",
+                            "ethiopia",
+                            "morocco",
+                            "mozambique",
+                            "uganda"
+                        ],
+                        "type": "string",
+                        "description": "phone country",
+                        "name": "country",
+                        "in": "query"
+                    },
+                    {
+                        "enum": [
+                            1,
+                            2
+                        ],
+                        "type": "integer",
+                        "description": "phone state",
+                        "name": "state",
+                        "in": "query"
                     }
                 ],
                 "responses": {
