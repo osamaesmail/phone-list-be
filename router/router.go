@@ -17,6 +17,7 @@ import (
 // @title phone list API
 // @version 1.0
 // @description phone list API example
+// nolint
 // @BasePath /api/v1
 func InitRouter(r *gin.Engine) {
 	customerRepository := repository.NewCustomerRepository(database.DB())
