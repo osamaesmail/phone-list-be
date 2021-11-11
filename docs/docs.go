@@ -59,11 +59,12 @@ var doc = `{
                     },
                     {
                         "enum": [
+                            0,
                             1,
                             2
                         ],
                         "type": "integer",
-                        "description": "phone state - 1 = valid, 2 = invalid, other = all",
+                        "description": "phone state(1 = valid, 2 = invalid, other = all)",
                         "name": "state",
                         "in": "query"
                     }

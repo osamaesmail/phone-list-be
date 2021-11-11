@@ -54,8 +54,9 @@ paths:
         in: query
         name: country
         type: string
-      - description: phone state - 1 = valid, 2 = invalid, other = all
+      - description: phone state(1 = valid, 2 = invalid, other = all)
         enum:
+        - 0
         - 1
         - 2
         in: query
