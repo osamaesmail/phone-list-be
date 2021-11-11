@@ -8,6 +8,7 @@ import (
 const (
 	phoneRegexStr = "\\(%d\\)\\ ?%s$"
 	codeRegexStr  = "\\(%d\\)\\.*"
+	falseRegex    = "x\\by"
 )
 
 type countryRegex struct {
@@ -52,5 +53,5 @@ func GetValidCodeRegex(country string) string {
 		return fmt.Sprintf(codeRegexStr, countryRegex.Code)
 	}
 
-	return "x\\by"
+	return falseRegex
 }

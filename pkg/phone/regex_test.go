@@ -15,5 +15,5 @@ func TestGetValidPhoneRegex(t *testing.T) {
 func TestGetValidCodeRegex(t *testing.T) {
 	assert.Equal(t, "\\(237\\)\\.*", GetValidCodeRegex("cameroon"))
 
-	assert.Equal(t, "", GetValidCodeRegex(""))
+	assert.Equal(t, "x\\by", GetValidCodeRegex(""))
 }

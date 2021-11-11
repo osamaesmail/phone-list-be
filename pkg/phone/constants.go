@@ -1,7 +1,7 @@
 package phone
 
 const (
-	AllStateValid = iota
+	StateAll = iota
 	StateValid
 	StateInvalid
 )
