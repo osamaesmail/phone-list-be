@@ -52,5 +52,5 @@ func GetValidCodeRegex(country string) string {
 		return fmt.Sprintf(codeRegexStr, countryRegex.Code)
 	}
 
-	return ""
+	return "x\\by"
 }
